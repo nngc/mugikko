@@ -1,0 +1,281 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+  line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color:#ff9;
+  color:#000; 
+  font-style:italic;
+   font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display:block;
+  height:1px;
+  border:0;   
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+
+
+
+
+.header {
+    display: flex;
+    background-color: #ccb997;
+}
+
+.dogthree {
+    display: flex;
+}
+
+li { 
+    list-style: none;
+    padding: 30px 40px;
+}
+
+.header-logo {
+    font-size: 30px;
+    padding: 30px 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header img {
+    width: 100x;
+    height: 100px;
+    padding-top: 25px;
+}
+
+span {
+    color: rgb(49, 49, 143);
+}
+
+.conts {
+    margin: 0 auto;
+    width: 950px;
+}
+
+h1 {
+    padding: 30px 60px;
+    font-size: 70px;
+    letter-spacing: 6px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 10px;
+}
+
+h2 {
+    padding: 0 100px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+h4 {
+    padding: 0 100px;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+.items {
+    display: flex;
+}
+
+.item {
+    width: 100%;
+}
+
+.item a {
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #8da0b6;
+}
+
+.item a:hover {
+    color:#6c272d;
+    }
+
+.item img {
+    width: 200px;
+    height: 200px;
+    margin: 30px 0px;
+    border-radius: 13px;
+
+}
+
+.monroe {
+    border-top: 1px solid black;
+    padding: 30px;
+    letter-spacing: 1px;
+}
+
+.monroe2 {
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+.header-mugi {
+  color: #db8a90;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-mugi-k {
+  color: #648cc0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-mugi-m {
+  color: #f0ecb7;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.header-text {
+  color: #db8a90;
+}
+
+.header-text-k {
+  color: #648cc0;
+}
+
+.header-text-m {
+  color: #f0ecb7;
+}
+
+
+
+.bgi-mugi {
+  background-image: url(bgi_mugi.JPG);
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+.bgi-kome {
+  background-image: url(bgi_kome.jpg);
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+.bgi-mame {
+  background-image: url(bgi_mame.JPG);
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+
+
+main {
+  background-color:rgb(250, 244, 220);
+}
+
+.conts {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  padding: 15px;
+
+}
+
+.conts img {
+  width: 300px;
+  height: 300px;
+  margin: 3px;
+  border-radius: 13px;
+
+}
+
+
+
+footer {
+  background-color: #807e67;
+}
